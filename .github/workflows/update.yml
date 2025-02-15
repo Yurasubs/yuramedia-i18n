@@ -1,0 +1,30 @@
+name: Update i18n submodule
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: Yurasubs/yuramedia
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: true
+
+      - name: Pull & update the i18n submodule
+        run: |
+          git submodule update --init src/locales
+          git submodule update --remote src/locales
+
+      - name: Commit changes for i18n submodule
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions - update submodules"
+          git add src/locales
+          git commit -m "chore(i18n): sync git submodule" || echo "No changes to commit"
+          git push
