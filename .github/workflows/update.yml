@@ -8,39 +8,23 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           repository: Yurasubs/yuramedia
-          # Use a PAT instead of GITHUB_TOKEN for submodule access
           token: ${{ secrets.PAT_TOKEN }}
           submodules: true
-          fetch-depth: 0
 
-      - name: Update i18n submodule
+      - name: Pull & update the i18n submodule
         run: |
-          # Initialize and update the submodule
           git submodule update --init --recursive src/locales
           git submodule update --remote src/locales
-        
-      - name: Commit and push changes
+
+      - name: Commit changes for i18n submodule
         run: |
-          # Check if there are any changes to commit
-          if git diff --quiet src/locales; then
-            echo "No changes in submodule, skipping commit"
-            exit 0
-          fi
-          
-          # Configure git
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions - update submodules"
-          
-          # Stage, commit and push changes
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions - update submodules"
           git add src/locales
-          git commit -m "chore(i18n): sync git submodule"
-          git push origin main
-        env:
-          # Use PAT_TOKEN for push authentication
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          git commit -m "chore(i18n): sync git submodule" || echo "No changes to commit"
+          git push
