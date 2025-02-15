@@ -1,0 +1,18 @@
+{
+    "title": "Security",
+    "description": "Manage your Discord account security settings and notifications.",
+    "discord": {
+        "title": "Discord Security",
+        "description": "Manage your Discord account security settings",
+        "manage": "Open Discord Settings"
+    },
+    "notifications": {
+        "title": "Notifications",
+        "description": "Manage notifications from Yuramedia Link"
+    },
+    "session": {
+        "title": "Session",
+        "description": "Manage your login sessions",
+        "logout": "Log Out from All Devices"
+    }
+}

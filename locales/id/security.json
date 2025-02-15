@@ -1,0 +1,18 @@
+{
+    "title": "Keamanan",
+    "description": "Kelola pengaturan keamanan akun Discord dan notifikasi Anda.",
+    "discord": {
+        "title": "Keamanan Discord",
+        "description": "Kelola pengaturan keamanan akun Discord Anda",
+        "manage": "Buka Pengaturan Discord"
+    },
+    "notifications": {
+        "title": "Notifikasi",
+        "description": "Atur notifikasi dari Yuramedia Link"
+    },
+    "session": {
+        "title": "Sesi",
+        "description": "Kelola sesi login Anda",
+        "logout": "Keluar dari Semua Perangkat"
+    }
+}

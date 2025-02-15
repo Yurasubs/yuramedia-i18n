@@ -1,0 +1,140 @@
+{
+    "enabled": "Aktif",
+    "disabled": "Nonaktif",
+    "unauthorized": {
+        "title": "Akses Tidak Diizinkan",
+        "description": "Anda tidak memiliki izin untuk mengakses dashboard. Area ini dibatasi untuk administrator dan kreator konten.",
+        "contactAdmin": "Jika Anda yakin seharusnya memiliki akses, silakan hubungi administrator.",
+        "backHome": "Kembali ke Beranda"
+    },
+    "imageUploader": {
+        "dragAndDrop": "Seret dan lepas gambar di sini atau klik untuk menjelajah",
+        "supportedFormats": "Format yang didukung: JPEG, PNG, GIF (maks 5MB)",
+        "browseFiles": "Jelajah File",
+        "uploading": "Mengunggah...",
+        "invalidFileType": "Harap unggah file gambar",
+        "uploadFailed": "Gagal mengunggah gambar"
+    },
+    "usersSection": {
+        "title": "Pengguna",
+        "usernamePlaceholder": "Nama Pengguna",
+        "selectRolePlaceholder": "Pilih peran",
+        "userRole": "Pengguna",
+        "adminRole": "Admin",
+        "addUserButton": "Tambah Pengguna"
+    },
+    "sidebar": {
+        "platform": "Platform",
+        "dashboard": "Dasbor",
+        "settings": "Pengaturan",
+        "personalDetails": "Detail Pribadi",
+        "security": "Keamanan",
+        "recruitment": "Rekrutmen",
+        "jobsListings": "Daftar Pekerjaan",
+        "recruiterDashboard": "Dasbor Perekrut",
+        "posts": "Postingan",
+        "users": "Pengguna",
+        "admin": "Alat Admin",
+        "support": "Dukungan",
+        "language": "Bahasa",
+        "theme": "Tema"
+    },
+    "dashboard": {
+        "title": "Dasbor",
+        "users": {
+            "title": "Manajemen Pengguna",
+            "description": "Lihat dan kelola akun pengguna"
+        },
+        "posts": {
+            "title": "Postingan",
+            "description": "Buat, edit, dan kelola postingan Anda"
+        },
+        "admin": {
+            "title": "Alat Admin",
+            "description": "Akses fungsi administratif"
+        }
+    },
+    "users": {
+        "title": "Pengguna",
+        "add": "Tambah Pengguna",
+        "edit": "Edit Pengguna",
+        "delete": "Hapus Pengguna",
+        "deleteConfirm": "Apakah Anda yakin ingin menghapus pengguna ini?",
+        "name": "Nama",
+        "email": "Email",
+        "role": "Peran",
+        "actions": "Tindakan"
+    },
+    "posts": {
+        "title": "Postingan",
+        "add": "Tambah Postingan",
+        "edit": "Edit Postingan",
+        "delete": "Hapus Postingan",
+        "create": "Buat Postingan",
+        "titlePlaceholder": "Masukkan judul postingan",
+        "contentPlaceholder": "Masukkan konten postingan",
+        "deleteConfirmTitle": "Apakah Anda yakin ingin menghapus postingan ini?",
+        "deleteConfirmDescription": "Tindakan ini tidak dapat dibatalkan. Ini akan menghapus postingan secara permanen.",
+        "titleField": "Judul",
+        "content": "Konten",
+        "author": "Penulis",
+        "publishDate": "Tanggal Publikasi",
+        "actions": "Tindakan"
+    },
+    "common": {
+        "save": "Simpan",
+        "cancel": "Batal",
+        "delete": "Hapus",
+        "edit": "Edit",
+        "create": "Buat",
+        "search": "Cari",
+        "loading": "Memuat...",
+        "noResults": "Tidak ada hasil ditemukan",
+        "error": "Terjadi kesalahan",
+        "success": "Operasi berhasil",
+        "confirm": "Konfirmasi",
+        "yes": "Ya",
+        "no": "Tidak",
+        "close": "Tutup",
+        "back": "Kembali",
+        "next": "Selanjutnya",
+        "previous": "Sebelumnya",
+        "tryAgain": "Coba Lagi",
+        "errorNotFound": "Halaman yang Anda cari tidak dapat ditemukan.",
+        "errorNotFoundDesc": "Halaman yang Anda cari mungkin telah dihapus atau tidak pernah ada.",
+        "errorInternalServer": "Terjadi kesalahan server. Silakan coba lagi nanti.",
+        "errorInternalServerDesc": "Kami akan segera memperbaiki masalah ini. Silakan coba lagi nanti."
+    },
+    "login": {
+        "title": "Masuk ke Dashboard",
+        "button": "Masuk dengan Discord"
+    },
+    "hero": {
+        "title": "Yuramedia Link",
+        "subtitle": "Yuramedia Link adalah organisasi yang berfokus pada turnamen esports, manajemen media sosial, pemasaran, berita, dan lokalisasi bahasa.",
+        "cta": "Mulai"
+    },
+    "noContent": "Tidak ada konten tersedia.",
+    "readMore": "Baca selengkapnya",
+    "featuredContent": {
+        "title": "Cerita Unggulan",
+        "description": "Lihat cerita unggulan terbaru kami."
+    },
+    "partners": {
+        "title": "Mitra Kami"
+    },
+    "sponsors": {
+        "title": "Sponsor Kami"
+    },
+    "maps": {
+        "title": "Lokasi Kami"
+    },
+    "footer": {
+        "aboutUs": "Tentang Kami",
+        "aboutDescription": "Yuramedia Link mengkhususkan diri dalam turnamen esports, manajemen media sosial, pemasaran, berita, dan lokalisasi bahasa. Kami menghadirkan inovasi dan keahlian di dunia esports dan media digital.",
+        "quickLinks": "Tautan Cepat",
+        "followUs": "Ikuti Kami",
+        "system": "Sistem",
+        "copyright": "© {{year}} Yuramedia Link. Hak cipta dilindungi undang-undang."
+    }
+}

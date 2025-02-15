@@ -1,0 +1,140 @@
+{
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "unauthorized": {
+        "title": "Unauthorized Access",
+        "description": "You do not have permission to access the dashboard. This area is restricted to administrators and content creators.",
+        "contactAdmin": "If you believe you should have access, please contact an administrator.",
+        "backHome": "Return to Home"
+    },
+    "imageUploader": {
+        "dragAndDrop": "Drag and drop an image here or click to browse",
+        "supportedFormats": "Supported formats: JPEG, PNG, GIF (max 5MB)",
+        "browseFiles": "Browse Files",
+        "uploading": "Uploading...",
+        "invalidFileType": "Please upload an image file",
+        "uploadFailed": "Failed to upload image"
+    },
+    "usersSection": {
+        "title": "Users",
+        "usernamePlaceholder": "Username",
+        "selectRolePlaceholder": "Select role",
+        "userRole": "User",
+        "adminRole": "Admin",
+        "addUserButton": "Add User"
+    },
+    "sidebar": {
+        "platform": "Platform",
+        "dashboard": "Dashboard",
+        "settings": "Settings",
+        "personalDetails": "Personal details",
+        "security": "Security",
+        "recruitment": "Recruitment",
+        "jobsListings": "Jobs Listings",
+        "recruiterDashboard": "Recruiter Dashboard",
+        "posts": "Posts",
+        "users": "Users",
+        "admin": "Admin Tools",
+        "support": "Support",
+        "language": "Language",
+        "theme": "Theme"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "users": {
+            "title": "User Management",
+            "description": "View and manage user accounts"
+        },
+        "posts": {
+            "title": "Posts",
+            "description": "Create, edit, and manage your posts"
+        },
+        "admin": {
+            "title": "Admin Tools",
+            "description": "Access administrative functions"
+        }
+    },
+    "users": {
+        "title": "Users",
+        "add": "Add User",
+        "edit": "Edit User",
+        "delete": "Delete User",
+        "deleteConfirm": "Are you sure you want to delete this user?",
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "actions": "Actions"
+    },
+    "posts": {
+        "title": "Posts",
+        "add": "Add Post",
+        "edit": "Edit Post",
+        "delete": "Delete Post",
+        "create": "Create Post",
+        "titlePlaceholder": "Enter post title",
+        "contentPlaceholder": "Enter post content",
+        "deleteConfirmTitle": "Are you sure you want to delete this post?",
+        "deleteConfirmDescription": "This action cannot be undone. This will permanently delete the post.",
+        "titleField": "Title",
+        "content": "Content",
+        "author": "Author",
+        "publishDate": "Publish Date",
+        "actions": "Actions"
+    },
+    "common": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "create": "Create",
+        "search": "Search",
+        "loading": "Loading...",
+        "noResults": "No results found",
+        "error": "An error occurred",
+        "success": "Operation successful",
+        "confirm": "Confirm",
+        "yes": "Yes",
+        "no": "No",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "tryAgain": "Try Again",
+        "errorNotFound": "The page you are looking for cannot be found.",
+        "errorNotFoundDesc": "If you typed in the web address, please check it is correct.",
+        "errorInternalServer": "Internal Server Error",
+        "errorInternalServerDesc": "The server encountered an internal error and was unable to complete your request. Please try again later."
+    },
+    "login": {
+        "title": "Login to Dashboard",
+        "button": "Sign in with Discord"
+    },
+    "hero": {
+        "title": "Yuramedia Link",
+        "subtitle": "Yuramedia Link is an organization that focuses on esports tournaments, management, social media management, marketing, news, and language localization.",
+        "cta": "Get Started"
+    },
+    "noContent": "No content available.",
+    "readMore": "Read more",
+    "featuredContent": {
+        "title": "Featured Story",
+        "description": "Check out our latest featured story."
+    },
+    "partners": {
+        "title": "Our Partners"
+    },
+    "sponsors": {
+        "title": "Our Sponsors"
+    },
+    "maps": {
+        "title": "Our Location"
+    },
+    "footer": {
+        "aboutUs": "About Us",
+        "aboutDescription": "Yuramedia Link specializes in esports tournaments, social media management, marketing, news, and language localization. We bring innovation and expertise to the world of esports and digital media.",
+        "quickLinks": "Quick Links",
+        "followUs": "Follow Us",
+        "system": "System",
+        "copyright": "© {{year}} Yuramedia Link. All rights reserved."
+    }
+}
