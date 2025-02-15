@@ -13,8 +13,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Yurasubs/yuramedia
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: true
+          ssh-strict: true
+          ssh-user: git
+          persist-credentials: true
+          clean: true
+          sparse-checkout-cone-mode: true
+          fetch-depth: 1
+          fetch-tags: false
+          show-progress: true
+          lfs: false
+          set-safe-directory: true
 
       - name: Pull & update the i18n submodule
         run: |
