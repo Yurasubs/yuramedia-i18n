@@ -18,7 +18,7 @@ jobs:
 
       - name: Pull & update the i18n submodule
         run: |
-          git submodule update --init src/locales
+          git submodule update --init --recursive src/locales
           git submodule update --remote src/locales
 
       - name: Commit changes for i18n submodule
